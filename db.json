@@ -1,31 +1,61 @@
 {
-  "posts": [
+  "Employee": [
     {
-      "id": 1,
-      "title": "Post 1"
+      "Eid": "e1",
+      "fName": "Vidula",
+      "lName":"Dakshitha",
+      "Mobile":"0779819207",
+      "Address1":"No 71/8",
+      "Address2":"7th Lane",
+      "City":"Moratuwa",
+      "Gender":"Male",
+      "NIC":"199907810318",
+      "Title":"Stylish",
+      "sDate":"01/01/2015",
+      "eDate":""
     },
     {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
+      "Eid": "e2",
+      "fName": "Seran",
+      "lName":"Deeraka",
+      "Mobile":"0712569561",
+      "Address1":"No 2",
+      "Address2":"8th Lane",
+      "City":"Panadura",
+      "Gender":"Female",
+      "NIC":"199907110318",
+      "Title":"Stylish-senior",
+      "sDate":"01/01/2011",
+      "eDate":""
     }
   ],
-  "comments": [
+  "User": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
+      "Uid": "u1",
+      "fName": "Admin1",
+      "lName": "Admin2",
+      "Email":"admin@admin.com",
+      "Mobile":"07123456789"
     }
   ],
-  "profile": {
-    "name": "typicode"
+  "Appointment": {
+    "Aid": "typicode",
+    "appoint_date":"02/06/2020",
+    "current_date":"03/12/2020",
+    "done": "True",
+    "isCancelled": "",
+    "cancel_reason": "",
+    "cancel_time": "",
+    "Uid":"u1",
+    "cid":"c1"
+    
   }
+],
+  "Client":{
+    "Cid":"c1",
+    "NIC":"199807126318",
+    "Name":"Sharukh khan",
+    "Mobile":"0718362093",
+    "Attempt":1
+}
 }
