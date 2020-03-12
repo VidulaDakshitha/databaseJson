@@ -38,7 +38,8 @@
       "Mobile":"07123456789"
     }
   ],
-  "Appointment": {
+  "Appointment": [
+    {
     "Aid": "typicode",
     "appoint_date":"02/06/2020",
     "current_date":"03/12/2020",
@@ -51,11 +52,12 @@
     
   }
 ],
-  "Client":{
+  "Client":[
+    {
     "Cid":"c1",
     "NIC":"199807126318",
     "Name":"Sharukh khan",
     "Mobile":"0718362093",
     "Attempt":1
-}
+}],
 }
